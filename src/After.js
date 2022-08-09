@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Input, InputGroup, InputLeftAddon, Box } from "@chakra-ui/react"
+import { Input, Box } from "@chakra-ui/react"
 
 const After = ({ getAfterDate }) => {
   const [date, setDate] = useState(0)
